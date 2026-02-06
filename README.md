@@ -73,10 +73,24 @@ Track your nutrition trends, workout patterns, and goal progress with beautiful 
 ## 📱 Screenshots
 
 <p align="center">
-  <img src="screenshots/today.png" width="200" alt="Today View">
-  <img src="screenshots/plan.png" width="200" alt="Meal Plan">
-  <img src="screenshots/snap.png" width="200" alt="Snap to Log">
-  <img src="screenshots/analytics.png" width="200" alt="Analytics">
+  <img src="screenshots/today.png" width="180" alt="Today View">
+  <img src="screenshots/plan.png" width="180" alt="Meal Plan">
+  <img src="screenshots/meal-detail.png" width="180" alt="Meal Detail">
+  <img src="screenshots/quick-actions.png" width="180" alt="Quick Actions">
+</p>
+
+<p align="center">
+  <img src="screenshots/analytics-meals.png" width="180" alt="Analytics - Meals">
+  <img src="screenshots/analytics-workouts.png" width="180" alt="Analytics - Workouts">
+  <img src="screenshots/analytics-health.png" width="180" alt="Analytics - Health">
+  <img src="screenshots/activity.png" width="180" alt="Activity Detail">
+</p>
+
+<p align="center">
+  <sub>
+    <strong>Top:</strong> Today · Plan · Meal Detail · Quick Actions<br>
+    <strong>Bottom:</strong> Analytics (Meals) · Analytics (Workouts) · Analytics (Health) · Activity
+  </sub>
 </p>
 
 ---

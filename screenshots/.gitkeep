@@ -1,5 +1,12 @@
-Add app screenshots here:
-- today.png
-- plan.png
-- snap.png
-- analytics.png
+# Screenshots Directory
+
+Add the following screenshots:
+
+1. today.png              - Today View with progress and meals
+2. plan.png               - Weekly meal plan view
+3. meal-detail.png        - Meal detail with ingredients
+4. quick-actions.png      - Quick actions menu
+5. analytics-meals.png    - Analytics Meals tab with calorie trend
+6. analytics-workouts.png - Analytics Workouts tab
+7. analytics-health.png   - Analytics Health tab with weight/BMI
+8. activity.png           - Activity & Nutrition detail view
