@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6C9EC6D42EE7540100AF130D /* MLX in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6D32EE7540100AF130D /* MLX */; };
+		6C9EC6D62EE7540100AF130D /* MLXNN in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6D52EE7540100AF130D /* MLXNN */; };
+		6C9EC6D82EE7540100AF130D /* MLXRandom in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6D72EE7540100AF130D /* MLXRandom */; };
+		6C9EC6DB2EE7542E00AF130D /* MarkdownUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6DA2EE7542E00AF130D /* MarkdownUI */; };
+		6C9EC6DE2EE7545A00AF130D /* MLXLLM in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6DD2EE7545A00AF130D /* MLXLLM */; };
+		6C9EC6E02EE7545A00AF130D /* MLXLMCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6DF2EE7545A00AF130D /* MLXLMCommon */; };
+		6C9EC6E22EE7545A00AF130D /* MLXVLM in Frameworks */ = {isa = PBXBuildFile; productRef = 6C9EC6E12EE7545A00AF130D /* MLXVLM */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		6C9EC6C12EE751F800AF130D /* DietAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DietAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +33,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C9EC6DE2EE7545A00AF130D /* MLXLLM in Frameworks */,
+				6C9EC6D62EE7540100AF130D /* MLXNN in Frameworks */,
+				6C9EC6D82EE7540100AF130D /* MLXRandom in Frameworks */,
+				6C9EC6D42EE7540100AF130D /* MLX in Frameworks */,
+				6C9EC6E02EE7545A00AF130D /* MLXLMCommon in Frameworks */,
+				6C9EC6E22EE7545A00AF130D /* MLXVLM in Frameworks */,
+				6C9EC6DB2EE7542E00AF130D /* MarkdownUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,13 @@
 			);
 			name = DietAI;
 			packageProductDependencies = (
+				6C9EC6D32EE7540100AF130D /* MLX */,
+				6C9EC6D52EE7540100AF130D /* MLXNN */,
+				6C9EC6D72EE7540100AF130D /* MLXRandom */,
+				6C9EC6DA2EE7542E00AF130D /* MarkdownUI */,
+				6C9EC6DD2EE7545A00AF130D /* MLXLLM */,
+				6C9EC6DF2EE7545A00AF130D /* MLXLMCommon */,
+				6C9EC6E12EE7545A00AF130D /* MLXVLM */,
 			);
 			productName = DietAI;
 			productReference = 6C9EC6C12EE751F800AF130D /* DietAI.app */;
@@ -94,6 +118,11 @@
 			);
 			mainGroup = 6C9EC6B82EE751F800AF130D;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				6C9EC6D22EE7540100AF130D /* XCRemoteSwiftPackageReference "mlx-swift" */,
+				6C9EC6D92EE7542E00AF130D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */,
+				6C9EC6DC2EE7545A00AF130D /* XCRemoteSwiftPackageReference "mlx-swift-examples" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6C9EC6C22EE751F800AF130D /* Products */;
 			projectDirPath = "";
@@ -249,10 +278,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DietAI/DietAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YB4K72V7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Diet AI uses your camera to scan barcodes on food products and look up their nutritional information.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Diet AI reads your activity data to adjust your daily calorie recommendations based on your exercise.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Diet AI saves your meal nutrition data to the Health app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -280,10 +314,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DietAI/DietAI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YB4K72V7KR;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Diet AI uses your camera to scan barcodes on food products and look up their nutritional information.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Diet AI reads your activity data to adjust your daily calorie recommendations based on your exercise.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Diet AI saves your meal nutrition data to the Health app.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -328,6 +367,71 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6C9EC6D22EE7540100AF130D /* XCRemoteSwiftPackageReference "mlx-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.29.1;
+			};
+		};
+		6C9EC6D92EE7542E00AF130D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/gonzalezreal/swift-markdown-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.1;
+			};
+		};
+		6C9EC6DC2EE7545A00AF130D /* XCRemoteSwiftPackageReference "mlx-swift-examples" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ml-explore/mlx-swift-examples";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.29.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C9EC6D32EE7540100AF130D /* MLX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6D22EE7540100AF130D /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLX;
+		};
+		6C9EC6D52EE7540100AF130D /* MLXNN */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6D22EE7540100AF130D /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXNN;
+		};
+		6C9EC6D72EE7540100AF130D /* MLXRandom */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6D22EE7540100AF130D /* XCRemoteSwiftPackageReference "mlx-swift" */;
+			productName = MLXRandom;
+		};
+		6C9EC6DA2EE7542E00AF130D /* MarkdownUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6D92EE7542E00AF130D /* XCRemoteSwiftPackageReference "swift-markdown-ui" */;
+			productName = MarkdownUI;
+		};
+		6C9EC6DD2EE7545A00AF130D /* MLXLLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6DC2EE7545A00AF130D /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXLLM;
+		};
+		6C9EC6DF2EE7545A00AF130D /* MLXLMCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6DC2EE7545A00AF130D /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXLMCommon;
+		};
+		6C9EC6E12EE7545A00AF130D /* MLXVLM */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6C9EC6DC2EE7545A00AF130D /* XCRemoteSwiftPackageReference "mlx-swift-examples" */;
+			productName = MLXVLM;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6C9EC6B92EE751F800AF130D /* Project object */;
 }
